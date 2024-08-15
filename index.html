@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <title>Mahmoud Elkariouny</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="light-theme">
+
+  <!-- Start scroll-up-button -->
+  <div class="scroll-up-btn" onclick="scrollToTop()">
+    <img src="./images/scroll-top-img.png" alt="scroll top icon" />
+  </div>
+  <!-- End scroll-up-button -->
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./images/logo.png" alt="Devblog's logo" class="logo-light" />
+          <img src="./images/logo.png" alt="Devblog's logo" class="logo-dark" />
+        </a>
+
+        <div class="btn-group">
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="flex-wrapper">
+          <ul class="desktop-nav">
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
+                class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
+                class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+        </div>
+
+        <div class="mobile-nav">
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
+                  class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
+                  class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Software Development</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+      <div class="container">
+
+        <div class="left">
+          <h1 class="h1">
+            Hi, I'm <b>Mahmoud Elkariouny</b> <br />Web Developer
+          </h1>
+
+          <p class="h3">Specialized in Web Development.</p>
+
+          <div class="btn-group">
+            <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
+              class="btn btn-primary">Contact Me
+              <ion-icon name="call"></ion-icon>
+            </a>
+            <a href="https://drive.google.com/file/d/1CDDrR2YDWL-1tckz_WpaH7CRYsz9FDEs/view?usp=sharing" target="_blank"
+              class="btn btn-secondary">Download CV
+              <ion-icon name="cloud-download-sharp"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./images/hero.png" alt="Julia Walker" class="hero-img" />
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <!-- Latest Projects -->
+
+          <h2 class="h2">Latest Projects</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./images/projects/dev-valley.png" alt="to do app" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/mahmoudessam820/dev-valley" class="h3" target="_blank">Dev-Valley</a>
+                </h3>
+
+                <p class="blog-text">
+                  Dev-Valley is an open-source community platform for software developers,
+                  facilitating knowledge sharing and collaboration through blog posts and
+                  articles.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./images/author.png" alt="Mahmoud Elkariouny" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">Sep 10, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">2 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./images/projects/home.png" alt="technologies book" width="250"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/mahmoudessam820/Teck-Books" class="h3" target="_blank">
+                    Teck Books
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  Teck Books is a website that provides free downloads of computer science,software engineering, and
+                  programming books, textbooks, lecture notes, and cheat sheets. All the resources on the site are
+                  freely available for users.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./images/author.png" alt="Mahmoud Elkariouny" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Oct 17, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./images/projects/movies-trailers.jpg" alt="movies-trailers" width="250"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/mahmoudessam820/Movies-trailers" class="h3" target="_blank">Movies
+                    Trailers</a>
+                </h3>
+
+                <p class="blog-text">
+                  The Movie Trailers Web App is a personal project I developed to showcase trailers of my favorite
+                  movies. This app provides an intuitive user interface where users can browse and view trailers of
+                  various movies.
+
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./images/author.png" alt="Mahmoud Elkariouny" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">Jun 28, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./images/projects/quotes.jpg" alt="quotes" width="250" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/mahmoudessam820/quotes-app" class="h3" target="_blank">Quotes App</a>
+                </h3>
+
+                <p class="blog-text">
+                  Quotes app is a full-stack web application with Vue.js and
+                  Flaks. Whether you're going through hard times, need an
+                  extra push to get stuff done, or like sharing inspirational
+                  quotes in social media, Motivation has you covered.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./images/author.png" alt="Mahmoud Elkariouny" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">Nov 10, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Problem Solving -->
+
+            <h2 class="h2">Problem Solving</h2>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./images/problem-solving/python.png" alt="Python" width="250"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Problem-Solving</button>
+
+                <h3>
+                  <a href="https://dev.to/mahmoudessam/python-challenge31-pl7" class="h3" target="_blank">Simple
+                    Encryption - Alternating Split</a>
+                </h3>
+
+                <p class="blog-text">
+                  Implement a pseudo-encryption algorithm which given a string S and an integer N
+                  Concatenates all the odd-indexed characters of S with all the even-indexed characters of S.
+                  This process should be repeated N times.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./images/author.png" alt="Mahmoud Elkariouny" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Aug 7, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./images/problem-solving/js2.jpg" alt="JavaScript" width="250"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Problem-Solving</button>
+
+                <h3>
+                  <a href="https://dev.to/mahmoudessam/javascript-challenges3-1dpk" class="h3" target="_blank">Simple
+                    Roman Numerals Encoder</a>
+                </h3>
+
+                <p class="blog-text">
+                  Create a function taking a positive integer as its parameter and returning a string containing the
+                  Roman Numeral representation of that integer.
+                  Modern Roman numerals are written by expressing each digit separately starting with the left most
+                  digit and skipping any digit with a value of zero.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./images/author.png" alt="Mahmoud Elkariouny" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Aug 7, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./images/problem-solving/sql-1.png" alt="SQL" width="250" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Problem-Solving</button>
+
+                <h3>
+                  <a href="https://dev.to/mahmoudessam/sql-challenge1-1cnp" class="h3" target="_blank">
+                    Data Science Skills LinkedIn SQL Interview Question</a>
+                </h3>
+
+                <p class="blog-text">
+                  Given a table of candidates and their skills, you're tasked with finding the candidates best suited
+                  for an open Data Science job.
+                  You want to find candidates who are proficient in Python, Tableau, and PostgreSQL.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./images/author.png" alt="Mahmoud Elkariouny" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Aug 7, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Latest Blogs -->
+
+            <h2 class="h2">Latest Blogs</h2>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./images/blogs/bug.jpg" alt="bug" width="250" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">debugging</button>
+
+                <h3>
+                  <a href="https://dev.to/mahmoudessam/what-is-debugging-5pi" class="h3" target="_blank">What is
+                    debugging?</a>
+                </h3>
+
+                <p class="blog-text">
+                  Programming is a complex process, and because it is done by human beings, it often leads to errors.
+                  Programming errors are called bugs and the process of tracking them down and correcting them is called
+                  debugging.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./images/author.png" alt="Mahmoud Elkariouny" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Aug 7, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./images/blogs/programming.png"
+                  alt="Ultimate Guide to Learn SQL Basics Intermediate Advanced" width="250" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">programming</button>
+
+                <h3>
+                  <a href="https://dev.to/mahmoudessam/what-are-the-benefits-of-learning-programming-4gmd" class="h3"
+                    target="_blank">What are the benefits of learning programming?
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  Programming is an invaluable skill to learn in today’s digital world.
+
+                  It can open up a variety of opportunities for career advancement, as well as allow you to become more
+                  creative and innovative.
+
+                  Learning programming allows you to develop problem-solving skills useful in almost any field.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./images/author.png" alt="Mahmoud Elkariouny" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-15">Mar 9, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <button class="btn load-more">
+            <a href="https://dev.to/mahmoudessam" target="_blank">Read More</a>
+          </button>
+        </div>
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+          <div class="topics">
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="code-slash-sharp"></ion-icon>
+              </div>
+
+              <p>Software Development</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Web Performance</p>
+            </a>
+          </div>
+
+          <div class="tags">
+            <h2 class="h2">My Skills</h2>
+
+            <div class="wrapper">
+              <button class="hashtag">#HTML</button>
+              <button class="hashtag">#CSS</button>
+              <button class="hashtag">#JavaScript</button>
+              <button class="hashtag">#Vue.js</button>
+              <button class="hashtag">#Bootstrap</button>
+              <button class="hashtag">#Python</button>
+              <button class="hashtag">#Flask</button>
+              <button class="hashtag">#Django</button>
+              <button class="hashtag">#PostgreSQL</button>
+            </div>
+          </div>
+
+          <div class="contact">
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+              <p>
+                Do you want to learn more about how I can help your company
+                overcome problems? Let us have a conversation.
+              </p>
+
+              <ul class="social-link">
+                <li>
+                  <a href="https://discord.com/channels/988098121550667877/988098122053980191" target="_blank"
+                    class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://twitter.com/Mahmoud42275" class="icon-box twitter" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" class="icon-box linkedin"
+                    target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="newsletter">
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+              <p>
+                Subscribe to our newsletter to be among the first to keep up
+                with the latest updates.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required />
+
+                <button type="submit" class="btn btn-primary">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="wrapper">
+        <a href="#" class="footer-logo">
+          <img src="./images/logo.png" alt="DevBlog's Logo" class="logo-light" />
+          <img src="./images/logo.png" alt="DevBlog's Logo" class="logo-dark" />
+        </a>
+
+        <p class="footer-text">
+          Learn about Web accessibility, Web performance, and Database
+          management.
+        </p>
+      </div>
+
+      <div class="wrapper">
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" class="footer-link"
+              target="_blank">LinkdIn</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/mahmoudessam820" target="_blank" class="footer-link">GitHub</a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/Mahmoud42275" target="_blank" class="footer-link">Twitter</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper">
+        <p class="footer-title">Another Blog</p>
+
+        <ul>
+          <li>
+            <a href="https://dev.to/mahmoudessam/" target="_blank" class="footer-link">Dev.to</a>
+          </li>
+
+          <li>
+            <a href="https://tealfeed.com/mahmoud_134478" target="_blank" class="footer-link">TealFeed</a>
+          </li>
+
+          <li>
+            <a href="https://www.medium.com/" target="_blank" class="footer-link">Medium</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2023
+      <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank">Code_Stark</a>
+    </p>
+  </footer>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+
